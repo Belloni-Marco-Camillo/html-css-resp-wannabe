@@ -78,11 +78,25 @@ img {
     padding: 0;
     box-sizing: border-box;
   }
+
   #lezioni .row{
     display: flex;
     flex-direction: column;
   }
   #lezioni .row h1{
     text-align: center;
+  }
+  .row{
+    width: 100%;
+  }
+  #lezioni .row>.left, #lezioni .row>.right {
+  width: 100%;
+  float: left;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  display: flex;
+  flex-direction: column;
   }
 }
